@@ -17,7 +17,7 @@ node {
                 pushVersion: '${BUILD_NUMBER}',
 		baseDir: '/var/lib/jenkins/workspace/JPetStore-WEB/',
                 fileIncludePatterns: '**/*',
-                fileExcludePatterns: '',                
+                fileExcludePatterns: '.git',                
                 pushDescription: 'Pushed from Jenkins'
 	    ]	
 	]	
